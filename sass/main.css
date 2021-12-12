@@ -1,7 +1,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
+  font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0px;
+}
+
+body {
+  background: #0d192b;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 375px;
+  padding: 25px;
+  background: #14253d;
+  border-radius: 10px;
+}
+
+.card-body .card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-body .nft-header {
+  margin: 10px 0px;
+}
+
+.card-body .nft-header h1 {
+  font-family: "Outfit";
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-justify: distribute;
+  color: white;
+}
+
+.card-body .nft-description p {
+  margin: 10px 0px;
+  font-size: 0.97rem;
+  font-family: "Outfit";
+  font-weight: 300;
+  color: #8bacda;
+}
+
+.card-body .nft-description .nft-price-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.card-body .creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0px;
+}
+
+.card-body .creator img {
+  margin-right: 15px;
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.card-body hr {
+  color: #2f415b;
 }
 /*# sourceMappingURL=main.css.map */

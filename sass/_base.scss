@@ -10,7 +10,9 @@ $cardBGBlue: hsl(216, 50%, 16%);
 $lineDarkBlue: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
 
+//Basic CSS setting
 * {
+  font-size: 18px;
   box-sizing: border-box;
   margin: 0px;
 }

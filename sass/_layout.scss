@@ -1,0 +1,64 @@
+body {
+  background: $darkBlue;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  padding: 25px;
+  background: $cardBGBlue;
+  border-radius: 10px;
+
+  .card-image {
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .nft-header {
+    margin: 10px 0px;
+
+    h1 {
+      font-family: "Outfit";
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-justify: distribute;
+      color: $white;
+    }
+  }
+
+  .nft-description {
+    p {
+      margin: 10px 0px;
+      font-size: 0.97rem;
+      font-family: "Outfit";
+      font-weight: 300;
+      color: $softBlue;
+    }
+    .nft-price-time {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0px;
+    }
+  }
+
+  .creator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+
+    img {
+      margin-right: 15px;
+      width: 10%;
+      border: 1px solid $white;
+      border-radius: 100%;
+    }
+  }
+
+  hr {
+    color: $lineDarkBlue;
+  }
+}
