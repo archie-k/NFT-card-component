@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: "Outfit";
   background: #0d192b;
 }
 
@@ -37,7 +38,6 @@ body {
 }
 
 .card-body .nft-header h1 {
-  font-family: "Outfit";
   font-size: 1.3rem;
   font-weight: 600;
   text-justify: distribute;
@@ -47,7 +47,6 @@ body {
 .card-body .nft-description p {
   margin: 10px 0px;
   font-size: 0.97rem;
-  font-family: "Outfit";
   font-weight: 300;
   color: #8bacda;
 }
@@ -62,6 +61,24 @@ body {
   margin: 10px 0px;
 }
 
+.card-body .nft-description .nft-price-time .price {
+  color: #00fff7;
+}
+
+.card-body .nft-description .nft-price-time .price,
+.card-body .nft-description .nft-price-time .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  font-size: 0.95rem;
+}
+
 .card-body .creator {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,13 +87,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px 0px;
+  color: #8bacda;
 }
 
 .card-body .creator img {
   margin-right: 15px;
   width: 10%;
-  border: 1px solid white;
+  border: 1px solid #8bacda;
   border-radius: 100%;
+}
+
+.card-body .creator .name-color {
+  color: white;
 }
 
 .card-body hr {

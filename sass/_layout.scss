@@ -1,4 +1,5 @@
 body {
+  font-family: "Outfit";
   background: $darkBlue;
 }
 
@@ -22,7 +23,6 @@ body {
     margin: 10px 0px;
 
     h1 {
-      font-family: "Outfit";
       font-size: 1.3rem;
       font-weight: 600;
       text-justify: distribute;
@@ -34,14 +34,27 @@ body {
     p {
       margin: 10px 0px;
       font-size: 0.97rem;
-      font-family: "Outfit";
       font-weight: 300;
       color: $softBlue;
     }
+
     .nft-price-time {
       display: flex;
       justify-content: space-between;
       margin: 10px 0px;
+
+      .price {
+        color: $cyan;
+      }
+
+      .price,
+      .time {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+        font-size: 0.95rem;
+      }
     }
   }
 
@@ -49,12 +62,17 @@ body {
     display: flex;
     align-items: center;
     margin: 10px 0px;
+    color: $softBlue;
 
     img {
       margin-right: 15px;
       width: 10%;
-      border: 1px solid $white;
+      border: 1px solid $softBlue;
       border-radius: 100%;
+    }
+
+    .name-color {
+      color: $white;
     }
   }
 
