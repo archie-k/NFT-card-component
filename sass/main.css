@@ -102,6 +102,10 @@ body {
   font-size: 0.95rem;
 }
 
+.card-body hr {
+  color: #2f415b;
+}
+
 .card-body .creator {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,9 +131,5 @@ body {
 .card-body .creator .name-color:hover {
   cursor: pointer;
   color: #00fff7;
-}
-
-.card-body hr {
-  color: #2f415b;
 }
 /*# sourceMappingURL=main.css.map */

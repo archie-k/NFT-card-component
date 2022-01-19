@@ -74,6 +74,10 @@ body {
     }
   }
 
+  hr {
+    color: $lineDarkBlue;
+  }
+
   .creator {
     display: flex;
     align-items: center;
@@ -95,9 +99,5 @@ body {
         color: $cyan;
       }
     }
-  }
-
-  hr {
-    color: $lineDarkBlue;
   }
 }
