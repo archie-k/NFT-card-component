@@ -11,6 +11,23 @@ body {
   background: #0d192b;
 }
 
+.background {
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,10 +55,16 @@ body {
 }
 
 .card-body .nft-header h1 {
+  display: inline;
   font-size: 1.3rem;
   font-weight: 600;
   text-justify: distribute;
   color: white;
+}
+
+.card-body .nft-header h1:hover {
+  cursor: pointer;
+  color: #00fff7;
 }
 
 .card-body .nft-description p {
@@ -86,7 +109,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 0px;
+  margin-top: 15px;
   color: #8bacda;
 }
 
@@ -99,6 +122,11 @@ body {
 
 .card-body .creator .name-color {
   color: white;
+}
+
+.card-body .creator .name-color:hover {
+  cursor: pointer;
+  color: #00fff7;
 }
 
 .card-body hr {
